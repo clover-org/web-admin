@@ -10,9 +10,9 @@
         <relativePath/>
     </parent>
 
-    <name>ManJo - WS Chat - ROOT</name>
-    <groupId>io.manjo.chat</groupId>
-    <artifactId>chat-root</artifactId>
+    <name>CloverAdmin - ROOT</name>
+    <groupId>org.clover.admin</groupId>
+    <artifactId>root</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-RC</version>
 
@@ -23,8 +23,8 @@
     </properties>
 
     <modules>
-        <module>chat-bom</module>
-        <module>chat-app</module>
+        <module>bom</module>
+        <module>app</module>
     </modules>
 
 </project>
