@@ -20,5 +20,5 @@
       ██████
       ████
 
-🍀 Clover - Admin Control Panel Spring Boot Based
-🍀 Author - Ivan Hontarenko - https://cloverframework.org/
+🍀 Clover - WebAdmin: Spring Boot Based
+🍀 Author - Ivan Hontarenko - https://cleverj.com/

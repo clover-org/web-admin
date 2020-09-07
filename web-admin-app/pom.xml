@@ -4,21 +4,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.clover.admin</groupId>
+        <groupId>com.cleverj.web</groupId>
         <version>1.0.0-RC</version>
-        <artifactId>root</artifactId>
+        <artifactId>web-admin-parent</artifactId>
     </parent>
 
-    <name>CloverAdmin - Application</name>
-    <artifactId>app</artifactId>
+    <name>[ CleverJ ] : WebAdmin - Application</name>
+    <artifactId>web-admin-app</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-RC</version>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.clover.admin</groupId>
-                <artifactId>bom</artifactId>
+                <groupId>com.cleverj.web</groupId>
+                <artifactId>web-admin-bom</artifactId>
                 <version>1.0.0-RC</version>
                 <type>pom</type>
                 <scope>import</scope>

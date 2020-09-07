@@ -1,6 +1,6 @@
-package org.clover.admin.configuration;
+package com.cleverj.web.admin.configuration;
 
-import org.clover.admin.property.WebSecurityProperties;
+import com.cleverj.web.admin.property.WebSecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -68,8 +68,8 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         auth
                 .inMemoryAuthentication()
-                .withUser("admin")
-                .password(encoder.encode("admin"))
+                .withUser("web")
+                .password(encoder.encode("web"))
                 .roles("USER", "ADMIN");
     }
 

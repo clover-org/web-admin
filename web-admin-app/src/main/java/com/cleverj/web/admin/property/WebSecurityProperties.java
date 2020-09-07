@@ -1,4 +1,4 @@
-package org.clover.admin.property;
+package com.cleverj.web.admin.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

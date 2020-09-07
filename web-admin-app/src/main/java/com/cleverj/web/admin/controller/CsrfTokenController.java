@@ -1,4 +1,4 @@
-package org.clover.admin.controller;
+package com.cleverj.web.admin.controller;
 
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.stereotype.Controller;
